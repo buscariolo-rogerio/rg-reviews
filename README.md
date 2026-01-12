@@ -15,8 +15,8 @@ Plataforma web de avaliações de jogos.
 - Área Restrita
 
 # Desenvolvedores
-Rogerio Buscariolo da Silva
-Gabriel Peres Garcia
+- Rogerio Buscariolo da Silva
+- Gabriel Peres Garcia
 
 # Autor
 Rogerio Buscariolo da Silva
