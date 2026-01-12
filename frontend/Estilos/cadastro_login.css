@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(120deg, #0a001a, #1b0036);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-branco {
+  width: 900px;
+  height: 520px;
+  background: #fff;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
+
+.esquerda {
+  width: 50%;
+  background-image: url("/frontend/imagens/games.svg    "); /* sua imagem */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.esquerda::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    rgba(25, 0, 60, 0.85),
+    rgba(0, 0, 0, 0.6)
+  );
+}
+
+.esquerda .overlay {
+  position: relative;
+  z-index: 2;
+  color: white;
+  padding: 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.esquerda h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.esquerda p {
+  font-size: 15px;
+  opacity: 0.85;
+}
+
+.direita {
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.direita h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 14px 14px 14px 45px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  outline: none;
+}
+
+.input-box input:focus {
+  border-color: #6c2bd9;
+}
+
+.input-icon {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  opacity: 0.6;
+}
+
+button {
+  margin-top: 25px;
+  padding: 16px;
+  width: 100%;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(120deg, #6c2bd9, #8e44ff);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(108, 43, 217, 0.4);
+}
+
+.link {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #6c2bd9;
+  text-align: center;
+  cursor: pointer;
+}
