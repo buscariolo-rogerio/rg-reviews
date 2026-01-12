@@ -6,7 +6,7 @@ Plataforma web de avaliações de jogos.
 - PostgreSQL
 - BrModelo
 - HTML, CSS, JavaScript
-- Figma
+- Figma Design
 
 # Funcionalidades 
 - Cadastro e Login 
