@@ -3,7 +3,7 @@ Plataforma web de avaliações de jogos.
 
 # Tecnologias
 - Java (Servlet, JSP, JDBC)
-- PostGreSQL
+- PostgreSQL
 - BrModelo
 - HTML, CSS, JavaScript
 - Figma
