@@ -1,0 +1,197 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Poppins, Montserrat, sans-serif;
+  background: radial-gradient(circle at top, #1b0045, #05000d);
+  color:white;
+}
+
+.header{
+  height:80px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:0 40px;
+  background:linear-gradient(180deg,#000,#12002e);
+}
+
+.logo{
+  height:100px;
+  text-align: center;
+  position: relative;
+  
+}
+
+.btn-back{
+  background:none;
+  border:2px solid cyan;
+  color:cyan;
+  padding:8px 12px;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+.header-right{
+  display:flex;
+  gap:15px;
+  align-items:center;
+}
+
+.profile-icon{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  background:#7c3aed;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.btn-review{
+  background:#7c3aed;
+  border:none;
+  color:white;
+  padding:10px 20px;
+  border-radius:12px;
+  cursor:pointer;
+}
+
+.hero{
+  padding:60px 40px;
+}
+
+.hero h2{
+  text-align:center;
+  font-size:28px;
+  margin-bottom:40px;
+}
+
+.games-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:40px;
+  margin-bottom:80px;
+}
+
+.game-card{
+  background:#0c0040;
+  border-radius:20px;
+  padding:20px;
+  text-align:center;
+}
+
+.game-card img{
+  width:100%;
+  border-radius:12px;
+}
+
+.game-card button{
+  margin-top:10px;
+  background:#7c3aed;
+  border:none;
+  color:white;
+  padding:8px 20px;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+.reviews-container{
+  display:flex;
+  flex-wrap:wrap;
+  gap:40px;
+  justify-content:center;
+}
+
+.review-card{
+  width:420px;
+  display:flex;
+  gap:20px;
+  padding:20px;
+  border-radius:22px;
+  background:linear-gradient(180deg,#0a0030,#12004a);
+}
+
+.review-left{
+  width:55%;
+}
+
+.review-user{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+.user-avatar{
+  width:32px;
+  height:32px;
+  background:#7c3aed;
+  border-radius:50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.review-score{
+  background:#7c3aed;
+  padding:6px 12px;
+  border-radius:10px;
+  width:fit-content;
+  margin:10px 0;
+}
+
+.review-text{
+  background:#00e5ff;
+  color:black;
+  padding:10px;
+  border-radius:12px;
+  font-size:13px;
+}
+
+.review-like{
+  background:#7c3aed;
+  width:50px;
+  height:40px;
+  border-radius:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:10px;
+  cursor:pointer;
+}
+
+.review-right{
+  width:45%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.review-right img{
+  width:100%;
+  border-radius:12px;
+}
+
+.btn-view{
+  margin-top:auto;
+  background:#7c3aed;
+  border:none;
+  padding:10px 20px;
+  border-radius:10px;
+  color:white;
+}
+
+.footer{
+  margin-top:80px;
+  padding:40px;
+  text-align:center;
+  background:#000;
+}
+
+.footer-logo{
+  margin-top:10px;
+  height:50px;
+}
